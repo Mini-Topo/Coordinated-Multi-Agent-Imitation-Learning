@@ -16,5 +16,5 @@
     }
   },
   "onCreateCommand": "pip install uv",
-  "postCreateCommand": "uv venv --python /usr/local/bin/python3.9 && uv sync && echo 'source .venv/bin/activate' >> ~/.bashrc && bash scripts/setup_data.sh"
+  "postCreateCommand": "uv sync && echo 'source .venv/bin/activate' >> ~/.bashrc && bash scripts/setup_data.sh"
 }
