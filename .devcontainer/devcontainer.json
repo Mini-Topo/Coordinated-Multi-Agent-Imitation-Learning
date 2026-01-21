@@ -14,6 +14,5 @@
     }
   },
   "onCreateCommand": "pip install uv",
-  "postCreateCommand": "uv sync && echo 'source .venv/bin/activate' >> ~/.bashrc && bash scripts/setup_data.sh",
-  "remoteUser": "vscode"
+  "postCreateCommand": "uv sync && echo 'source .venv/bin/activate' >> ~/.bashrc && bash scripts/setup_data.sh"
 }
