@@ -3,7 +3,17 @@ name = "coordinated-multi-agent-imitation-learning"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.6,<3.10"
+requires-python = ">=3.8,<3.10"
 dependencies = [
-
+    "cython==0.29.37",
+    "hmmlearn>=0.3.3",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.7.5",
+    "numpy==1.24.4",
+    "pandas>=2.0.3",
+    "pomegranate==0.14.8",
+    "scipy==1.10.1",
+    "setuptools<70",
+    "tensorflow==2.9.*",
+    "tensorflow-io-gcs-filesystem<0.33",
 ]
